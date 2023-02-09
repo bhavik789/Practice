@@ -1,9 +1,92 @@
-<div>Bhavik Patel</div>
-<div>Jay</div>
-<h1>new line<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            border: 1px solid;
+            width: 100%;
+            margin-right: 10px;
+            position: fixed;
+            top: 0;
+        }
+        .logo{
+            border: 1px solid;
+            height: 50px;
+            width: 60px;
+            float: left;
+            background-color: brown;
+        }
+        .nav{
+            border: 1px solid;
+            background-color: aqua;
+            width:auto;
+            height: 50px;
+            
 
-<h1>
-    jay
-</h1>
-<h2>prajapati</h2>
-<h3>stash for</h3>
+        }
+        
+        li{
+            
+            display:inline ;
+            margin-left: 20px;
+            font-size: medium;
+        }
+        ul{
+            float:right;
+            width: 300px;
+           padding: 5px;
+           margin-top: 10px;
+           
+        }
+        #side{
+          
+                float:left;
+                background:Red;
+                width:25%;
+                height:980px;
+        }
+        #con{
+            float:left;
+                background:Green;
+                width:50%;
+                height:980px;
+        }
+        #right{
+           
+                float:right;
+                background:blue;
+                width:25%;
+                height:980px;
+        }
+        .footer{
+            width: 100%;
+            background-color: blueviolet;
+            height: 100px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="nav">
+            <ul>
+                <li>home</li>
+                <li>aboutus</li>
+                <li>contectus</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div id="side"></div>
+        <div id="con"></div>
+        <div id="right"></div>
+        <div class="footer"></div>
+    </div>
+  
+</body>
+</html>
